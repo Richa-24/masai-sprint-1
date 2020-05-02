@@ -1,0 +1,229 @@
+body{
+    background-color: #795548;
+}
+#background{
+     width: 75%;
+     height: 110%;
+     background-color: white;
+     margin: auto;
+     padding: 0 0 20px 0;
+}
+#background2{
+    width: 75%;
+    height: 110%;
+    background-color: white;
+    margin: auto;
+    padding: 0 0 20px 0;
+}
+
+
+.buttons{
+    display: flex;
+    width: 500px;
+    height: 30px;
+    margin: auto;
+}
+
+.buttonstext{
+    width: 100px;
+    height: 30px;
+    margin: 0 8px 0 8px;
+    border-radius: 5px;
+    text-align: center;
+    background-color:#A1887F ;
+    color: white;
+    font-size: 15px;
+}
+.head1,.head2{
+    width: 50%;
+    height: 15%;
+    margin: auto;
+    }
+h1,h2{
+    font-style: italic;
+    font-family: "https://fonts.googleapis.com/css2?family=Alegreya:ital";
+    text-align: center;
+    font-size: 40px; 
+}
+h2{font-size: 20px;}
+p{
+    font-size: 15px;
+    font-family:"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" ;
+    text-align: justify;
+}
+.head2{
+    width: 80%;
+}
+#box{
+    width: 90%;
+    height: 40%;
+    padding: 0 40px 20px 20px;
+    margin: auto;
+}
+.box1,.box2{
+    width: 40%;
+    height: 80%;
+    float: left;
+    padding: 0 0px 20px 20px;
+}
+.box2{
+    background-image: url("http://2.bp.blogspot.com/-zOjXi-XDjFo/UHMWA88cXVI/AAAAAAAABkk/PxZ3bmrdb-Q/s1600/Best-top-desktop-coffee-wallpapers-hd-coffee-wallpaper-pictures-backgrounds-01.jpg");
+    background-size: cover;
+}
+
+.box1{
+    width: 50%;
+    padding:0 20px 20px 20px ;
+}
+img[alt]{
+    width: 20px;
+    
+}
+.box3{
+    width: 90%;
+    height: 20%;
+    margin: auto;
+}
+.boxes,.boxpart1, .boxpart2{
+    width: 100%;
+    height: 28%;
+    margin: auto; margin-top: 5px;
+
+}
+.boxpart1, .boxpart2{
+    float: left;
+    width: 45%;
+    height: 90%;
+    margin: 0 20px 0 20px
+}
+.boxpart2{
+    clear: left;
+}
+.leftimg1,.leftimg2,.leftimg3,.leftimg4,.leftimg5,.leftimg6, .recitext{
+    height: 95%;
+    width: 30%;
+    margin: 2px;
+    float: left;
+    background-size: 200px;
+}
+.leftimg1{
+    background-image: url("https://i.ndtvimg.com/i/2017-02/coffee_620x350_81486626289.jpg");
+    
+}
+.leftimg2{
+    background-image: url("https://i.ndtvimg.com/i/2016-05/coffee_625x350_71463735100.jpg");
+    
+}
+.leftimg3{
+    background-image: url("https://i.ndtvimg.com/i/2016-07/filter-coffee_625x350_51469452455.jpg");
+}
+.leftimg4{
+    background-image: url("https://i.ndtvimg.com/i/2016-11/irish-coffee_620x350_61478861496.jpg");
+}
+.leftimg5{
+    background-image: url("https://i.ndtvimg.com/i/2017-05/summer-love_620x350_51494922352.jpg");
+}
+.leftimg6{
+    background-image: url("https://i.ndtvimg.com/i/2016-01/coffee_625x350_51453530928.jpg");
+}
+.leftimg1{
+    margin-left: 8px;
+}
+.recitext{
+    width: 65%;
+}
+h3{
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: italic;
+}
+.healthbox{
+    width: 90%;
+    height: 83%;
+    border: 2px dashed #8D6E63 ;
+    margin: auto; padding-right: 10px;margin-top: 10px;
+}
+li{
+    font-weight: bold;
+    font-size: 15px;
+}
+.line{
+    width: 100%;
+    height: 3%;
+    background-color:#795548 ;
+}
+.effectline{
+    width:80% ;
+    height: 80%;
+    border: 1px dashed #795548 ;
+    margin: auto; padding:0 20px 20px 20px;
+}
+span{
+    font-weight: bold;
+}
+@media(max-width:600px){
+    #background{
+        font-size: 20px;
+        height: 250%;
+    }
+}
+@media(max-width:600px){
+    #background2{
+        font-size: 20px;
+        height: 150%;
+    }
+}
+@media(max-width:600px){
+    .buttons{
+        flex-direction: column;
+        margin:0 0 50px 130px;  
+    }
+}
+@media(max-width:600px){
+    .buttonstext{
+        border: 1px solid #795548
+    }
+}
+
+@media(max-width:600px){
+    .box2{
+        width:45%;
+        height:30%
+    }
+}
+@media(max-width:600px){
+    .head2{
+        margin-top:100px
+    }
+}
+@media(max-width:600px){
+    .leftimg1,.leftimg2,.leftimg3,.leftimg4,.leftimg5,.leftimg6, .recitext{
+        width:150px;
+        height: 100px;    
+    }
+}
+@media(max-width:600px){
+    p, h3{
+        font-size: 15px;
+        font-family:"https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" ;
+        text-align: left;
+        margin: 0px;
+    }
+}
+@media(max-width:600px){
+    .recitext{
+        width:200%;
+        margin: 0 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
